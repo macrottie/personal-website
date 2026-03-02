@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Hack Regular";
+    src: url("./fonts/Hack-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hack Bold";
+    src: url("./fonts/Hack-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hack Italic";
+    src: url("./fonts/Hack-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Hack BoldItalic";
+    src: url("./fonts/Hack-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    background-color: black;
+    padding: 0;
+    color: white;
+}
+
+#terminal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}

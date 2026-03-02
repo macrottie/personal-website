@@ -137,7 +137,7 @@ export default class TerminalSimulator {
         });
 
         // temporary welcome message
-        this.renderer.renderText("Hello! Welcome to my VERY work in progress personal site.\n")
+        this.renderer.renderText("Hello! Welcome to my VERY work in progress personal site.\ntheres not much currently implemented, other than a basic filesystem + the lastfm and fastfetch commands\n")
 
         // init first prompt
         this.initPrompt();

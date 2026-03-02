@@ -136,6 +136,9 @@ export default class TerminalSimulator {
             e.preventDefault();
         });
 
+        // temporary welcome message
+        this.renderer.renderText("Hello! Welcome to my VERY work in progress personal site.\n")
+
         // init first prompt
         this.initPrompt();
 

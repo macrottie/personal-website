@@ -57,8 +57,6 @@ export const fastfetch: Command = async (_args, sim) => {
         );
     });
 
-    renderParts.push("\n");
-
     for(let i = 0; i < 16; i++){
         if( ((i) % 8) == 0) renderParts.push("\n"+indent);
         renderParts.push({text:"   ", backgroundColor: i});
